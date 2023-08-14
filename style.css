@@ -3,8 +3,8 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 700px;
     border-radius: 25px;
-    box-shadow: 5px 10px #ddd;
-    padding: 2em;
+    box-shadow: 100px 100px 100px 100px #ddd;
+    padding: 2em 2em 2em 2em;
 }
 
 header,h1 {
@@ -43,11 +43,13 @@ a {
 main {
     font-family: Comic sans-serif;
     text-align: left;
-    margin: 0 85px 0 0;
+    margin: 0 70px 0 65px;
     color: #dd3232;
         
     }
 
 .more-articles {
     display: inline-flex;
+    text-align: left;
+    margin: 0 
 }
