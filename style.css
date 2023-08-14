@@ -49,5 +49,5 @@ main {
     }
 
 .more-articles {
-    display: inline-block;
+    display: inline-flex;
 }
