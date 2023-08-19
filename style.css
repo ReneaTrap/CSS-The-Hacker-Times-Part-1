@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia;
+    font-size: medium;
     width: 700px;
     border-radius: 25px;
     box-shadow: 100px 100px 100px 100px #ddd;
     padding: 2em 2em 2em 2em;
+    margin: 0 auto;
 }
-
+.date {
+    text-align: left;
+    font-family: Arial;
+    font-size: small;
+}
 header,h1 {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium';
     font-size: 2em;
     color: black;
 }
 title {
     font-size: 15em;
-    color: aqua;
+    color: gray;
 }
 
 .newspaper-container {
@@ -25,6 +31,9 @@ title {
 }
 
 nav {
+    text-align: justify;
+    font-family: Arial;
+    font-size: small;
     color: #777;
     display: inline-block;
     margin: left;
@@ -43,13 +52,44 @@ a {
 main {
     font-family: Comic sans-serif;
     text-align: left;
-    margin: 0 70px 0 65px;
-    color: #dd3232;
+    margin: 0 10px 0 10px
         
     }
+
+h5 {
+    color: #dd3232;
+}
+
+p {
+    text-align: left;
+    font-family: Arial;
+    font-size: medium;
+}
 
 .more-articles {
     display: inline-flex;
     text-align: left;
+    font-family: arial;
+    font-size: medium;
     margin: 0 
+}
+
+.tab {
+    text-align: left;
+    font-family: arial;
+    font-size: medium;
+} 
+
+.tabs {
+    text-align: left;
+    font-family: arial;
+    font-size: medium;
+    margin: 10px 40px 0 0;
+}
+
+.caffeine {
+    text-align: left;
+    font-family: arial;
+    font-size: medium;
+    margin: 10px 40px 0 0;
 }
